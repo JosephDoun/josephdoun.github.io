@@ -19,8 +19,8 @@ favicon: "/img/favicon.ico"
 ################
 # Header layout #
 ################
-black-favicon: "/img/black-lab-glass.ico"
-background-img: "/img/intro-bg.jpg"
+logo: "earth-symbol.svg"
+background-img: "../img/intro-bg.jpg"
 ##############################
 # Dynamic Text on the Header #
 ##############################
@@ -34,7 +34,7 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: "Technology is best when it improves our lives."
   - text: "Geoinformatics can help make the world a better place!"
-  - text: "Contribute to move society forward."
+  - text: "Contribute to help move society forward."
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
