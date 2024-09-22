@@ -32,9 +32,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "Technology is best when it improves our lives."
-  - text: "Geoinformatics can help make the world a better place!"
-  - text: "Contribute to help move society forward."
+  - text: Building robust Machine Learning systems.
+  - text: Technology is best when it improves our lives.
+  - text: Geoinformatics can help us understand where we live!
+  - text: The understanding of feature spaces is key to successful solutions.
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
