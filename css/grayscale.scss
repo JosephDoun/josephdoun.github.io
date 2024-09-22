@@ -106,7 +106,7 @@ a {
     &:focus {
       outline: none;
     }
-    font-size: 2.2rem;
+    font-size: 80%;
   }
   a {
     color: $navbar-color;
@@ -184,12 +184,16 @@ a {
       font-size: 40px;
     }
     .intro-text {
-      font-size: 2.3rem;
+		font-size: 2.3rem;
       @if $navbar-text-shadow {
         text-shadow: 1px 0 1px #222222;
       }
     }
   }
+	.intro-text-container {
+		min-height: 15vh;
+	}
+  
   @media (min-width: 768px) {
     height: 100%;
     padding: 0;
@@ -200,6 +204,10 @@ a {
       .intro-text {
         font-size: 2.5rem;
       }
+	  .intro-text-container {
+		min-height: 0;
+	  }
+
     }
   }
 }
