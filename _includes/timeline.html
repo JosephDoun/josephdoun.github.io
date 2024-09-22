@@ -40,9 +40,14 @@
 
         <li class="timeline-inverted">
           <div class="timeline-image">
+			  {% if site.timeline-img contains "https://" %}
+			   {% assign src = site.timeline-img %}
+			  {% else %}
+			   {% assign src = site.timeline-img | prepend: site.url %}
+			  {% endif %}
             <img
               class="img-circle img-responsive"
-              src="{{site.url}}{{ site.timeline-img }}"
+              src="{{ src }}"
               alt=""
               width="156"
               height="156"
