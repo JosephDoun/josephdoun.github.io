@@ -86,28 +86,29 @@ syntax-highlight: True
 # Timeline #
 ############
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/Copernicus_logo.png"
     date: "August 2023 - Present"
     description: Working on developing
       [msi2slstr](http://github.com/josephdoun/msi2slstr). 
-        A data-fusion project for Sentinel-2 and Sentinel-3 satellite data.
-  - image: ""
+        A data-fusion project idea for Sentinel-2 and Sentinel-3
+        satellite data.
+  - image: "/img/earthpulse_logo.webp"
     date: August 2022 - July 2023
-    description: Worked on Machine Learning 
-      Forest and Water Quality monitoring issues 
+    description: Worked on Machine-Learning-based 
+      Forest and Water Quality monitoring solutions 
       at [EarthPulse](https://earthpulse.ai/) as a 
       Data Scientist and Python Developer.
-  - image: ""
+  - image: "/img/rslab.svg"
     date: January 2022 - July 2022
     description: Worked on Computer-Vision-based Building Height modeling
       problems at [RSLab](https://rslab.gr/) as a Research Assistant 
-      and AI Expert.
-  - image: ""
+      and AI professional.
+  - image: "/img/micreate_logo.png"
     date: January 2021 - March 2021
     description: Worked as a volunteer Market Analyst at
       [MiCreate](https://micreate.org/), using geoinformatics
       and web scraping tools to plan expansion areas for campaigns.
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/spatial_planning_logo.png"
     date: "September 2020"
     description: Received M.Eng. from  [School of Spatial Planning and
       Development](https://www.plandevel.auth.gr/en) & Started coding.
