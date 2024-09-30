@@ -140,11 +140,12 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb:
-  Joseph is an awesome person. He lives in Barcelona, where he works on
-  open-source engineering projects. In his spare time, Joseph likes to practise
-  playing the flamenco guitar and to build knowledge on various technologies 
-  outside his field.
-author_blurb_image: "/img/author.png"
+  Joseph is an awesome person. He lives in Barcelona since 2022 and
+  enjoys spending time working on open-source projects and learning the
+  Spanish language. He believes in contributing and building helpful stuff.
+  In his spare time, Joseph likes to study the flamenco guitar and to
+  investigate various technologies outside his field.
+author_blurb_image: /img/me.jpg
 ##################
 # Social Buttons #
 ##################
@@ -169,7 +170,7 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: "about"
   Timeline: "timeline"
-  Projects: "latest-post"
+  Posts: "latest-post"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
@@ -181,10 +182,12 @@ exclude:
   - Dockerfile
   - docker-compose.yml
 # Pagination path
-paginate_path: "projects/page:num/"
+paginate_path: "posts/page:num/"
 # Enable minification SASS
 sass:
   style: compressed
+site-css:
+  - /css/pseudocode.css
 plugins:
   - jekyll-paginate
   - jekyll-spaceship
