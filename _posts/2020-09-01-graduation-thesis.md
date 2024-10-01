@@ -46,43 +46,50 @@ in every step throughout the scene.
 
 An approximation of the merging criterion for a current object $c$ against an
 $m$ amount of object candidates can be defined as follows:
-$$\begin{align}
+
+\begin{align}
+    \\\\\\
+    \hline
     &\textbf{Declare } \Delta H[m]; \\\\\\
-    &\rule{110mm}{.4pt} \\\\\\
+    \hline
     &\textbf{for} \; i = 1 \; \textbf{to} \;m\; \textbf{do} \\\\\\
-    &\hspace{5mm}\Delta h_i \quad\gets h_\text{merged}
-    -
-    (h_c + h_i)\\\\\\
-    &\hspace{5mm}\Delta H[i] \gets \Delta h_i \\\\\\
-    &candidate \gets \operatorname{argmin}\(\Delta H\) \\\\\\
-    &\textbf{if} \operatorname{min}\(\Delta H\) < scale \\\\\\
-    &\hspace{5mm}\operatorname{merge}\(candidate\)
+    &\hspace{5mm} \Delta h_i \quad \gets h_\text{merged} - (h_c + h_i) \\\\\\
+    &\hspace{5mm} \Delta H[i] \gets \Delta h_i \\\\\\
+    &\textbf{if} \operatorname{min} (\Delta H) < scale \\\\\\
+    &\hspace{5mm} candidate \gets \operatorname{argmin} (\Delta H) \\\\\\
+    &\hspace{5mm} \operatorname{merge} (candidate)
 \end{align}
-$$
 
 The color heterogeneity of the algorithm is defined as follows and it increases
 with object size and contrast of contents:
-$$\begin{align}
-    &h_c = n \times \sigma \\\\\\
+
+\begin{align}
     \\\\\\
+    \hline
     &n: \text{number of object pixels} \\\\\\
-    &\sigma: \text{standard deviation of pixel intensities}
-\end{align}$$
+    &\sigma: \text{standard deviation of pixel intensities} \\\\\\
+    \hline
+    &h_c = n \times \sigma \tag{1} \\\\\\
+\end{align}
 
 The algorithm goes on to define an object shape heterogeneity that consists
 of two components:
-$$
+
+{% raw %}
 \begin{align}
-    &l : \text{object perimeter}\\\\\\
-    &b : \text{perimeter of object's bounding box}\\\\\\
-    &n : \text{size of object in pixels}\\\\\\
-    &\rule{110mm}{.4pt} \\\\\\
-    &compactness =\frac{l}{\sqrt{n}}& \\\\\\
-    &smoothness = \frac{l}{b}& \\\\\\
     \\\\\\
-    &h_s = \alpha \cdot compactness + (1 - \alpha) \cdot smoothness,& \alpha \in \[0, 1]
+    \hline
+    &l : \text{object perimeter length}\\\\\\
+    &b : \text{perimeter length of object's bounding box}\\\\\\
+    &n : \text{size of object in pixels}\\\\\\
+    \hline
+    &compactness =\frac{l}{\sqrt{n}}& \tag{2} \\\\\\
+    &smoothness = \frac{l}{b}& \tag{3} \\\\\\
+    &h_s = \alpha \cdot compactness + (1 - \alpha) \cdot smoothness,
+    \; \alpha \in [0, 1]& \tag{4}
 \end{align}
-$$
+{% endraw %}
+
 The $compactness$ scalar aims to keep the perimeter length low relative to the
 object size, while the $smoothness$ value keeps a low perimeter relative to the
 bounding box. Both of those magnitudes keep the object's shape from deviating
