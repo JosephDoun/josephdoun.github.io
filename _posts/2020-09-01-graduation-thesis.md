@@ -89,5 +89,6 @@ bounding box. Both of those magnitudes keep the object's shape from deviating
 quickly.
 
 Finally, a weighted average of $h_c$ and $h_s$ is used as the criterion for
+merging.
 
 
