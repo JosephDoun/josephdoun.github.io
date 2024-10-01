@@ -4,8 +4,7 @@
 url: "https://josephdoun.github.io/"
 
 # Google tracking id
-google-tracking-id: "ES-XXXXXXXX-X"
-
+google-tracking-id: "G-6TS25ZDPQK"
 #############
 # HTML Head #
 #############
@@ -87,11 +86,23 @@ syntax-highlight: True
 ############
 events:
   - image: "/img/Copernicus_logo.png"
-    date: "August 2023 - Present"
-    description: Working on developing
-      [msi2slstr](http://github.com/josephdoun/msi2slstr). 
-        A data-fusion project idea for Sentinel-2 and Sentinel-3
-        satellite data.
+    date: "July 2024 - Present"
+    description: Currently developing 
+      [msi2slstr](http://github.com/josephdoun/msi2slstr).
+      A python data-fusion package for the local deployment of the model.
+  - image: "/img/model.png"
+    date: November 2023 - June 2023
+    description: Researched, developed and trained a low-weight prototype
+      model for the task of fusing Sentinel-2 and Sentinel-3 pairs of data,
+      suitable for local environments.
+  - image: "/img/dataprep.png"
+    date: August 2023 - October 2023
+    description: Designed and developed
+      [msi2slstr-datagen](https://github.com/josephdoun/msi2slstr-datagen).
+      A collection of bash scripts for the generation of a dataset
+      consisting of corregistered and temporally close
+      Sentinel-2 and Sentinel-3 image pairs for the task
+      of fusion.
   - image: "/img/earthpulse_logo.webp"
     date: August 2022 - July 2023
     description: Worked on Machine-Learning-based 
@@ -129,11 +140,12 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb:
-  Joseph is an awesome person. He lives in Barcelona, where he works on
-  open-source engineering projects. In his spare time, Joseph likes to practise
-  playing the flamenco guitar and to build knowledge on various technologies 
-  outside his field.
-author_blurb_image: "/img/author.png"
+  Joseph is an awesome person. He lives in Barcelona since 2022 and
+  enjoys spending time working on open-source projects and learning the
+  Spanish language. He believes in contributing and building helpful stuff.
+  In his spare time, Joseph likes to study the flamenco guitar and to
+  investigate various technologies outside his field.
+author_blurb_image: /img/me.jpg
 ##################
 # Social Buttons #
 ##################
@@ -158,7 +170,7 @@ err-404-img: "/img/labtocat.png"
 pages_list:
   About: "about"
   Timeline: "timeline"
-  Projects: "latest-post"
+  Posts: "latest-post"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
@@ -170,10 +182,12 @@ exclude:
   - Dockerfile
   - docker-compose.yml
 # Pagination path
-paginate_path: "projects/page:num/"
+paginate_path: "posts/page:num/"
 # Enable minification SASS
 sass:
   style: compressed
+site-css:
+  - /css/pseudocode.css
 plugins:
   - jekyll-paginate
   - jekyll-spaceship
