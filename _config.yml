@@ -186,8 +186,7 @@ paginate_path: "posts/page:num/"
 # Enable minification SASS
 sass:
   style: compressed
-site-css:
-  - /css/pseudocode.css
 plugins:
   - jekyll-paginate
   - jekyll-spaceship
+markdown: kramdown
