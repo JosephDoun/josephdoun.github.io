@@ -140,7 +140,7 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb:
-  Joseph is an awesome person. He lives in Barcelona since 2022 and
+  Joseph is an awesome person. He lives in Spain since 2022 and
   enjoys spending time working on open-source projects and learning the
   Spanish language. He believes in contributing and building helpful stuff.
   In his spare time, Joseph likes to study the flamenco guitar and to

@@ -2,8 +2,8 @@
 layout: post
 section-type: post
 has-comments: true
-title: Object-based Image Analysis for Land Cover mapping
-category: GIS
+title: Object-based Image Analysis
+category: Image Analysis
 tags: ["thesis", "gis", "image-analysis", "land-cover"]
 ---
 
