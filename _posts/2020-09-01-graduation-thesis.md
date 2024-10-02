@@ -4,7 +4,7 @@ section-type: post
 has-comments: true
 title: Object-based Image Analysis
 category: Image Analysis
-tags: ["thesis", "gis", "image-analysis", "land-cover"]
+tags: ["thesis", "gis", "image-analysis"]
 ---
 
 As part of my studies in the School of Spatial Planning & Development
