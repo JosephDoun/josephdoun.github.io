@@ -31,10 +31,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: Building robust Machine Learning systems.
-  - text: Technology is best when it improves our lives.
-  - text: Geoinformatics can help us understand where we live!
-  - text: The understanding of feature spaces is key to successful solutions.
+  - text: Machine Learning Engineer.
+  - text: Continuous Integration / Continuous Development.
+  - text: Expert in Geoinformatics.
+  - text: Full Stack Software Developer.
 
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
@@ -56,7 +56,7 @@ apple-status-bar-style: "black"
 ################
 # Web app mode #
 ################
-web-app-mode: True
+web-app-mode: False
 # Icons for Web App mode
 icon-36p: "/img/web-app/icon-36p.png"
 icon-48p: "/img/web-app/icon-48p.png"
@@ -89,7 +89,7 @@ events:
     date: "July 2024 - Present"
     description: Currently developing 
       [msi2slstr](http://github.com/josephdoun/msi2slstr).
-      A python data-fusion package for the local deployment of the model.
+      A python data-fusion package for the local deployment of the fusion model.
   - image: "/img/model.png"
     date: November 2023 - June 2023
     description: Researched, developed and trained a low-weight prototype
