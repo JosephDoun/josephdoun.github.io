@@ -1,0 +1,192 @@
+# Site settings
+
+# NB! Set your site's url, otherwise nothing will work
+url: "https://josephdoun.github.io/"
+
+# Google tracking id
+google-tracking-id: "G-6TS25ZDPQK"
+#############
+# HTML Head #
+#############
+lang: "en"
+author: "Joseph Doundoulakis"
+title: "Joseph Doundoulakis"
+description: "Website of Iosif Doundoulakis, blogging mainly for tech.
+  Opinions expressed are mine."
+keywords: "iosif, doundoulakis, deep, machine, learning, earth, observation, gis"
+favicon: "/img/favicon.ico"
+################
+# Header layout #
+################
+logo: "earth-symbol.svg"
+background-img: "../img/intro-bg.jpg"
+##############################
+# Dynamic Text on the Header #
+##############################
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: Building robust Machine Learning systems.
+  - text: Technology is best when it improves our lives.
+  - text: Geoinformatics can help us understand where we live!
+  - text: The understanding of feature spaces is key to successful solutions.
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+me-img: "https://github.com/josephdoun.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black"
+################
+# Web app mode #
+################
+web-app-mode: True
+# Icons for Web App mode
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+########
+# Blog #
+########
+post-preview-words: 96
+paginate: 8
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: True
+pinterest-share: True
+pocket-share: True
+vkontakte-share: False
+disqus-shortname: "JDB"
+syntax-highlight: True
+############
+# Timeline #
+############
+events:
+  - image: "/img/Copernicus_logo.png"
+    date: "July 2024 - Present"
+    description: Currently developing 
+      [msi2slstr](http://github.com/josephdoun/msi2slstr).
+      A python data-fusion package for the local deployment of the model.
+  - image: "/img/model.png"
+    date: November 2023 - June 2023
+    description: Researched, developed and trained a low-weight prototype
+      model for the task of fusing Sentinel-2 and Sentinel-3 pairs of data,
+      suitable for local environments.
+  - image: "/img/dataprep.png"
+    date: August 2023 - October 2023
+    description: Designed and developed
+      [msi2slstr-datagen](https://github.com/josephdoun/msi2slstr-datagen).
+      A collection of bash scripts for the generation of a dataset
+      consisting of corregistered and temporally close
+      Sentinel-2 and Sentinel-3 image pairs for the task
+      of fusion.
+  - image: "/img/earthpulse_logo.webp"
+    date: August 2022 - July 2023
+    description: Worked on Machine-Learning-based 
+      Forest and Water Quality monitoring solutions 
+      at [EarthPulse](https://earthpulse.ai/) as a 
+      Data Scientist and Python Developer.
+  - image: "/img/rslab.svg"
+    date: January 2022 - July 2022
+    description: Worked on Computer-Vision-based Building Height modeling
+      problems at [RSLab](https://rslab.gr/) as a Research Assistant 
+      and AI professional.
+  - image: "/img/micreate_logo.png"
+    date: January 2021 - March 2021
+    description: Worked as a volunteer Market Analyst at
+      [MiCreate](https://micreate.org/), using geoinformatics
+      and web scraping tools to plan expansion areas for campaigns.
+  - image: "/img/spatial_planning_logo.png"
+    date: "September 2020"
+    description: Received M.Eng. from  [School of Spatial Planning and
+      Development](https://www.plandevel.auth.gr/en) & Started coding.
+# First image of the Timeline
+timeline-img: https://github.com/josephdoun.png?size=500
+###########
+# Contact #
+###########
+email: "joseph.doundoulakis@outlook.com"
+# Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
+pgp: False
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb:
+  Joseph is an awesome person. He lives in Spain since 2022 and
+  enjoys spending time working on open-source projects and learning the
+  Spanish language. He believes in contributing and building helpful stuff.
+  In his spare time, Joseph likes to study the flamenco guitar and to
+  investigate various technologies outside his field.
+author_blurb_image: /img/me.jpg
+##################
+# Social Buttons #
+##################
+social:
+  - icon: "github"
+    url: "https://github.com/josephdoun"
+  - icon: "linkedin-in"
+    url: "https://www.linkedin.com/in/jdoun"
+  - icon: "x-twitter"
+    url: "https://twitter.com/"
+  - icon: "rss"
+    url: "https://josephdoun.github.io/feed.xml"
+############
+# 404 page #
+############
+err-404-img: "/img/labtocat.png"
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+pages_list:
+  About: "about"
+  Timeline: "timeline"
+  Posts: "latest-post"
+  Contact: "contact"
+# Exclusion list from the generated _site
+exclude:
+  - LICENSE
+  - README.md
+  - CONTRIBUTING
+  - CONTRIBUTORS
+  - scripts
+  - Dockerfile
+  - docker-compose.yml
+# Pagination path
+paginate_path: "posts/page:num/"
+# Enable minification SASS
+sass:
+  style: compressed
+plugins:
+  - jekyll-paginate
+  - jekyll-spaceship
+markdown: kramdown
