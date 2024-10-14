@@ -32,8 +32,9 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: Machine Learning Engineer.
-  - text: Continuous Integration / Continuous Development.
+  - text: CI / CD practisioner.
   - text: Expert in Geoinformatics.
+  - text: Experienced in Computer Vision.
   - text: Full Stack Software Developer.
 
 # To use github profile pic uncomment the following line and replace 'user_name'
