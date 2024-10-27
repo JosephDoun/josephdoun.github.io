@@ -70,7 +70,7 @@
   border-radius: 100%;
   text-align: center;
   color: #fff;
-  background-color: #f1f1f1;
+  background-color: darken($primary-color, 5%);
   display: flex;
   img {
 	margin: auto;
@@ -83,7 +83,7 @@
   width: 100px;
   height: 100px;
   margin-left: 0;
-  border: 7px solid #f1f1f1;
+  border: 7px solid darken($font-color, 10%);
   border-radius: 100%;
   text-align: center;
   color: #fff;
