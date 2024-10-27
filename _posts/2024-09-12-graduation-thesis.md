@@ -3,8 +3,8 @@ layout: post
 section-type: post
 has-comments: true
 title: Object-based Image Analysis
-category: Image Analysis
-tags: ["thesis", "gis", "image-analysis"]
+category: image-analysis
+tags: ["image-analysis"]
 ---
 
 As part of my studies in the School of Spatial Planning & Development
@@ -69,7 +69,7 @@ with object size and contrast of contents:
     &n: \text{number of object pixels} \\\\\\
     &\sigma: \text{standard deviation of pixel intensities} \\\\\\
     \hline
-    &h_c = n \times \sigma \tag{1} \\\\\\
+    &h_c = n \cdot \sigma \tag{1} \\\\\\
 \end{align}
 
 The algorithm goes on to define an object shape heterogeneity that consists
