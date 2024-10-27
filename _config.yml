@@ -87,23 +87,14 @@ syntax-highlight: True
 ############
 events:
   - image: "/img/Copernicus_logo.png"
-    date: "July 2024 - Present"
-    description: Currently developing 
-      [msi2slstr](http://github.com/josephdoun/msi2slstr).
-      A python data-fusion package for the local deployment of the fusion model.
-  - image: "/img/model.png"
-    date: November 2023 - June 2023
-    description: Researched, developed and trained a low-weight prototype
-      model for the task of fusing Sentinel-2 and Sentinel-3 pairs of data,
-      suitable for local environments.
-  - image: "/img/dataprep.png"
-    date: August 2023 - October 2023
-    description: Designed and developed
-      [msi2slstr-datagen](https://github.com/josephdoun/msi2slstr-datagen).
-      A collection of bash scripts for the generation of a dataset
-      consisting of corregistered and temporally close
-      Sentinel-2 and Sentinel-3 image pairs for the task
-      of fusion.
+    date: August 2023 - present
+    description: Working on a data-fusion project called msi2slstr, across
+      three public repositories, [msi2slstr](http://github.com/josephdoun/msi2slstr),
+      [msi2slstr-training](http://github.com/josephdoun/msi2slstr-training-lightning-implementation) and
+      [msi2slstr-datagen](http://github.com/josephdoun/msi2slstr-dategen).
+      This project aims to build a foundation
+      for developing and deploying models for the fusion of Sentinel-2 and
+      Sentinel-3 satellite images of the copernicus program.
   - image: "/img/earthpulse_logo.webp"
     date: August 2022 - July 2023
     description: Worked on Machine-Learning-based 
