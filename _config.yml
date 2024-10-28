@@ -32,7 +32,7 @@ start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: Machine Learning Engineer.
-  - text: CI / CD practisioner.
+  - text: CI / CD practitioner.
   - text: Expert in Geoinformatics.
   - text: Experienced in Computer Vision.
   - text: Full Stack Software Developer.
