@@ -33,7 +33,6 @@ delete-delay: 5000
 lines: # You can add HTML Tags in the Text
   - text: Machine Learning.
   - text: Data Science.
-  - text: CI / CD.
   - text: Geoinformatics.
   - text: Computer Vision.
   - text: Full Stack Software Development.
@@ -88,32 +87,32 @@ syntax-highlight: True
 ############
 events:
   - image: "/img/Copernicus_logo.png"
-    date: July 2023 - present
-    description: Working on a data-fusion project called msi2slstr, across
+    date: 2023 - 2024
+    description: Working on an AI-assisted data fusion project, across
       three public repositories, [msi2slstr](http://github.com/josephdoun/msi2slstr),
       [msi2slstr-training](http://github.com/josephdoun/msi2slstr-training-lightning-implementation) and
       [msi2slstr-datagen](http://github.com/josephdoun/msi2slstr-dategen).
-      This project aims to build a foundation
-      for developing and deploying models for the fusion of Sentinel-2 and
-      Sentinel-3 satellite images of the copernicus program.
+      This project aims to provide a tool
+      for easily downscaling Sentinel-3 Land Surface Temperature rasters
+      using the spatial information of Sentinel-2 images.
   - image: "/img/earthpulse_logo.webp"
-    date: August 2022 - July 2023
-    description: Worked on Machine-Learning-based 
+    date: 2022 - 2023
+    description: Created Machine-Learning-based 
       Forest and Water Quality monitoring solutions 
       at [EarthPulse](https://earthpulse.ai/) as a 
       Data Scientist and Python Developer.
   - image: "/img/rslab.svg"
-    date: January 2022 - July 2022
-    description: Worked on Computer-Vision-based Building Height modeling
+    date: 2022
+    description: Solved Computer Vision based building height modeling
       problems at [RSLab](https://rslab.gr/) as a Research Assistant 
       and AI professional.
   - image: "/img/micreate_logo.png"
-    date: January 2021 - March 2021
-    description: Worked as a volunteer Market Analyst at
+    date: 2021
+    description: Volunteer Market Analyst at
       [MiCreate](https://micreate.org/), using geoinformatics
       and web scraping tools to plan expansion areas for campaigns.
   - image: "/img/spatial_planning_logo.png"
-    date: "September 2020"
+    date: "2020"
     description: Received M.Eng. from  [School of Spatial Planning and
       Development](https://www.plandevel.auth.gr/en) & Started coding.
 # First image of the Timeline
@@ -133,11 +132,9 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb:
-  Joseph is an awesome person. He lives in Spain since 2022 and
-  enjoys spending time working on open-source projects and learning the
-  Spanish language. He believes in contributing and building helpful stuff.
-  In his spare time, Joseph likes to study the flamenco guitar and to
-  investigate various technologies outside his field.
+  Joseph is an awesome person. He enjoys spending time on open-source projects,
+  and learning about and integrating new technologies into his own projects.
+  He believes in contributing and building helpful stuff.
 author_blurb_image: /img/me.jpg
 ##################
 # Social Buttons #
