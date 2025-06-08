@@ -22,10 +22,10 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({
-  headline,
+  children,
   footer
 }: Readonly<{
-  headline: React.ReactNode,
+  children: React.ReactNode,
   footer: React.ReactNode;
 }>) {
   return (
@@ -42,7 +42,7 @@ export default function RootLayout({
           >
           <main className={`flex flex-col gap-[32px] row-start-2
                             items-center sm:items-start`}>
-            {headline}        
+            {children}
           </main>
             {footer}
         </div>
