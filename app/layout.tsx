@@ -18,7 +18,9 @@ export const metadata: Metadata = {
     default: "Joseph Doundoulakis"
   },
   authors: [{name: "Joseph Doundoulakis"}],
-  description: "Curriculum page.",
+  description: "My Nextjs resume page.",
+  icons : null,
+  manifest: null,
 };
 
 export default function RootLayout({
