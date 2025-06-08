@@ -13,7 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: { template: "Joseph Doundoulakis | %s", default: "Joseph Doundoulakis"},
+  title: {
+    template: "Joseph Doundoulakis | %s",
+    default: "Joseph Doundoulakis"
+  },
+  authors: [{name: "Joseph Doundoulakis"}],
   description: "Curriculum page.",
 };
 
