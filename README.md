@@ -1,2 +1,3 @@
-# josephdoun.github.io
-My profile.
+# Personal Next.js curriculum project.
+
+Not licensed.
