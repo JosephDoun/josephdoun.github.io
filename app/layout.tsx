@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import iconLight from './light.svg'
+import iconDark from './dark.svg'
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -19,7 +23,20 @@ export const metadata: Metadata = {
   },
   authors: [{name: "Joseph Doundoulakis"}],
   description: "My Nextjs resume page.",
-  icons : null,
+  icons: {
+		icon: [
+			{
+				type: 'image/svg+xml',
+				media: '(prefers-color-scheme: light)',
+				url: iconLight.src
+			},
+			{
+				type: 'image/svg+xml',
+				media: '(prefers-color-scheme: dark)',
+				url: iconDark.src
+			}
+		]
+	},
   manifest: null,
 };
 
